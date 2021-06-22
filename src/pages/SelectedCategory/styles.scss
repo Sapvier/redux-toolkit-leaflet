@@ -1,0 +1,15 @@
+.page-container {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 5%;
+    width: 90%;
+  }
+}
