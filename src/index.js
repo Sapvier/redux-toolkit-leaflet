@@ -7,7 +7,7 @@ import './styles/_normalize.scss'
 
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+        <App/>
     </Provider>,
     document.getElementById('root')
 )

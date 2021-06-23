@@ -1,11 +1,11 @@
-.category-wrapper {
+.card-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 
   padding: 20px;
-  width: 30%;
-  height: 320px;
+  width: 20%;
+  height: 375px;
 
   border: 1px solid grey;
   border-radius: 4px;
@@ -19,10 +19,23 @@
   }
 
   p {
-    margin: 0;
+    margin: 0 0 20px 0;
     overflow: hidden;
-    max-width: 40ch;
+    max-width: 25ch;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+
+  button {
+    min-width: 100px;
+    min-height: 40px;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: darkgray;
+      border-radius: 4px;
+      transition: ease-in-out 0.3s;
+      color: white
+    }
   }
 }

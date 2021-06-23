@@ -1,0 +1,37 @@
+.cart-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+
+  padding: 20px;
+  width: 80%;
+
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-shadow: 1px 3px 5px black;
+
+  h3 {
+    flex-grow: 4;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-end;
+
+    input {
+      padding: 10px;
+      max-width: 35px;
+    }
+  }
+  button {
+    background-color: transparent;
+    border: none;
+
+    font-size: 32px;
+    font-weight: 200;
+  }
+}
