@@ -15,4 +15,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  > div:first-child {
+    padding: 20px;
+    width: 60%;
+    max-height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 }

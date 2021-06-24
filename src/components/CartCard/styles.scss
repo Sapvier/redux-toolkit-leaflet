@@ -5,11 +5,16 @@
   column-gap: 20px;
 
   padding: 20px;
-  width: 80%;
+  width: 100%;
 
-  border: 1px solid grey;
+  border-bottom: 1px solid grey;
   border-radius: 4px;
-  box-shadow: 1px 3px 5px black;
+
+  .img-wrapper {
+    width: 30%;
+    padding: 10px;
+    object-fit: cover;
+  }
 
   h3 {
     flex-grow: 4;
